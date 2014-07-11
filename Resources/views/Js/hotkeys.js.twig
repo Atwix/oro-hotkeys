@@ -1,0 +1,9 @@
+{% if true == isDesktopVersion() and true == oro_config_value('atwix_hotkeys.hotkeys_enabled') %}
+<script type="text/javascript">
+    require(['jquery', 'atwixhotkeys/js/hotkeys'], function($) {
+        $(function() {
+            var oroHotkeys = new hotkeysHandler();
+        });
+    });
+</script>
+{% endif %}

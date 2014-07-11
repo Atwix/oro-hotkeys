@@ -1,0 +1,9 @@
+placeholders:
+    before_body_end:
+        items:
+            hotkeys_js:
+                order: 10
+
+items:
+    hotkeys_js:
+        template: AtwixHotkeysBundle:Js:hotkeys.js.twig

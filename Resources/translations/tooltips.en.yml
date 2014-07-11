@@ -1,0 +1,14 @@
+atwix_hotkeys:
+    settings:
+        tooltip:
+            main_hint: >
+              Enable/Disable hotkeys extension.
+              The extension provides an ability to use single key for accessing to different
+              UI elements. Keys list:
+              s - Open search dialog.
+              c - Open shortcuts dialog.
+              r - Return to home page.
+              f - Open favourites tab.
+              h - Open history tab.
+              m - Open most viewed tab.
+              p - Open pinbar tab.

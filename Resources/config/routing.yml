@@ -1,0 +1,3 @@
+atwix_hotkeys_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: AtwixHotkeysBundle:Default:index }

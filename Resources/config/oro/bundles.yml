@@ -1,0 +1,2 @@
+bundles:
+   - { name: Atwix\Bundle\HotkeysBundle\AtwixHotkeysBundle, priority: 90 }

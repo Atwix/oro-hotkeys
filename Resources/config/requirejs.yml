@@ -1,0 +1,3 @@
+config:
+    paths:
+        'atwixhotkeys/js/hotkeys': 'bundles/atwixhotkeys/js/hotkeys.js'

@@ -1,0 +1,25 @@
+oro_system_configuration:
+    groups:
+        atwix_hotkeys_settings:
+            icon:   icon-bolt
+            title:  'Hotkeys'
+        atwix_hotkeys_general_settings:
+            title:  'General'
+    fields:
+        atwix_hotkeys.hotkeys_enabled:
+            type: oro_config_checkbox
+            options:
+                label: 'Enable Hotkeys'
+                tooltip: atwix_hotkeys.settings.tooltip.main_hint
+
+    tree:
+        system_configuration:
+            platform:
+                children:
+                    general_setup:
+                        children:
+                            atwix_hotkeys_settings:
+                                children:
+                                    atwix_hotkeys_general_settings:
+                                        children:
+                                            - atwix_hotkeys.hotkeys_enabled
