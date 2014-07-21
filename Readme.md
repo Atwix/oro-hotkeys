@@ -12,7 +12,12 @@ Base hotkeys are:
 * 'p' - Open pinbar tab.
 
 ## Installation
-Put the folder contents in src/Atwix/Bundle/HotkeysBundle/
+* Put the folder contents in `src/Atwix/Bundle/HotkeysBundle/`
+* Run the following command from the root of OroCRM installation:
+
+```Bash
+php app/console assets:install
+```
 
 ## Custom hotkeys
 You are able to map your own keys and maps by passing parameters to the `hotkeysHandler()` object.

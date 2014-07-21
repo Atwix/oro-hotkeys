@@ -241,7 +241,13 @@ table.codehilitetable td.code div pre {
 <li>&lsquo;p&rsquo; - Open pinbar tab.</li>
 </ul>
 <h2 id="installation"><a name="user-content-installation" href="#installation" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>Installation</h2>
-<p>Put the folder contents in src/Atwix/Bundle/HotkeysBundle/</p>
+<ul>
+<li>Put the folder contents in <code>src/Atwix/Bundle/HotkeysBundle/</code></li>
+<li>Run the following command from the root of the OroCRM installation:</li>
+</ul>
+<pre><code class="Bash">php app/console assets:install
+</code></pre>
+
 <h2 id="custom-hotkeys"><a name="user-content-custom-hotkeys" href="#custom-hotkeys" class="headeranchor-link"  aria-hidden="true"><span class="headeranchor"></span></a>Custom hotkeys</h2>
 <p>You are able to map your own keys and maps by passing parameters to the <code>hotkeysHandler()</code> object.<br />
 Just override <code>src/Atwix/Bundle/HotkeysBundle/Resources/views/Js/hotkeys.js.twig</code> and pass your own<br />
