@@ -1,6 +1,31 @@
 {
-    "name": "atwix/hotkeys",
-    "description": "Oro Hotkeys",
-    "homepage": "https://github.com/Atwix/oro-hotkeys",
-    "license": "MIT"
+  "name": "atwix/hotkeys",
+  "description": "OroCRM/OroPlatform Hotkeys Plugin",
+  "authors": [
+    {
+      "name": "Atwix",
+      "homepage": "http://www.atwix.com/"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Atwix\\Bundle\\HotkeysBundle": ""
+    }
+  },
+  "target-dir": "Atwix/Bundle/HotkeysBundle",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://packagist.orocrm.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "master"
+    }
+  }
 }
