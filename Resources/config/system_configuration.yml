@@ -8,6 +8,7 @@ oro_system_configuration:
     fields:
         atwix_hotkeys.hotkeys_enabled:
             type: oro_config_checkbox
+            data_type: boolean
             options:
                 label: 'Enable Hotkeys'
                 tooltip: atwix_hotkeys.settings.tooltip.main_hint
