@@ -12,13 +12,14 @@ Base hotkeys are:
 * 'p' - Open pinbar tab.
 
 ## Installation
-* Put the folder contents in `src/Atwix/Bundle/HotkeysBundle/`
-* Run the following command from the root of OroCRM installation:
+Use standard Package Manager in Oro Platform to find and install the extension.
 
-```Bash
-php app/console assets:install
+Or use as dependency in composer:
+```json
+"require": {
+        "atwix/hotkeys": "1.0",
+    }
 ```
-
 ## Custom hotkeys
 You are able to map your own keys and maps by passing parameters to the `hotkeysHandler()` object.
 Just override `src/Atwix/Bundle/HotkeysBundle/Resources/views/Js/hotkeys.js.twig` and pass your own
